@@ -1,5 +1,5 @@
 * {
-    font-family: Roboto;  /* check how to function*/ 
+    font-family: Roboto;
     margin: 0;
     padding: 0;
 }
@@ -55,7 +55,7 @@ a,
 .promotion {
     display: flex;
     flex-direction: row;
-    padding: 150px;
+    padding: 140px;
 }
 
 .promotiontitle {
@@ -78,10 +78,11 @@ a,
 
 .promotionright {
     flex: 1;
-    border: 1px solid white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 
 }
-/* check how to center the image in a box */
 
 .signup1,
 .signup2  {
@@ -111,7 +112,7 @@ a,
 .Agents {
     display: flex;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 50px;
     margin-bottom: 130px;
 }
 
@@ -135,6 +136,10 @@ a,
     font-style: italic;
     font-weight: 400;  /* check how to make light font on mac*/
     color: #1F2937;
+}
+
+.quotetext {
+    margin-bottom: 10px;
 }
 
 .quoteperson {
@@ -169,8 +174,8 @@ a,
     border: 1px solid
 }
 
-.footer {
-    display: flex;
+.footer {   
+    display: flex;         
     justify-content: center;
     align-items: center;
     min-height: 80px;
